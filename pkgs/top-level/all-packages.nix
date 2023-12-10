@@ -380,6 +380,8 @@ in
 
   docker-sync = callPackage ../tools/misc/docker-sync { };
 
+  sysbox = callPackage ../applications/virtualization/sysbox { };
+
   dockle = callPackage ../development/tools/dockle { };
 
   docui = callPackage ../tools/misc/docui { };
